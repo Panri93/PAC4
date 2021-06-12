@@ -7,7 +7,8 @@
 Aquest projecte forma part de l'última pràctica corresponent a la matèria de Programació per la ciència
 de dades del Master en Ciència de dades de la UOC. En concret, en aquesta pràctica es demana realitzar una anàlisi de
 dades amb informació sobre diferents entrevistes en els Estats Units durant l'últim any en relació amb el coronavirus
-i com l'ex-president Trump ha gestionat la situació.
+i com l'ex-president Trump ha gestionat la situació. El projecte es pot consultar i descarregar en el següent enllaç GIT: 
+https://github.com/Panri93/PAC4.git
 
 3. EXECUCIÓ
 
@@ -17,6 +18,7 @@ El codi s'ha desenvolupat en l'entorn IDE PyCharm. Per executar el codi, n'hi ha
 
 El projecte està constituït pels següents fitxers:
     - Carpeta "data" que conté les fonts de dades (veure 4.Fonts de dades)
+    - Carpeta "tests" que conté els tests realitzats.
     - main.py: programa principal d'execució de les funcions
     - utils.py: conté totes les funcions
     - requirements.txt: conté les llibreries necessàries per executar el codi
