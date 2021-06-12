@@ -1,0 +1,49 @@
+                                                    README
+======================================================================================================================
+1. NOM DEL PROJECTE: PAC4
+
+2. DESCRIPCIÓ
+
+Aquest projecte forma part de l'última pràctica corresponent a la materia de Programació per la ciència
+de dades del Master en Ciència de dades de la UOC. En concret, en aquesta pràctica es demana realitzar una anàlisi de
+dades amb informació sobre diferents entrevistes en els Estats Units durant l'últim any en relació amb el coronavirus
+i com l'ex-president Trump ha gestionat la situació.
+
+3. EXECUCIÓ
+
+Per executar el codi, n'hi ha prou en clicar RUN al arxiu main.py
+
+4. CONTINGUT
+
+El projecte està constituït pels següents fitxers:
+    - Carpeta "data" que conté les fonts de dades (veure 4.Fonts de dades)
+    - main.py: programa principal d'execució de les funcions
+    - utils.py: conté totes les funcions
+    - requirements.txt: conté les llibreries necessàries per executar el codi
+    - exercicis.txt: conté respostes als exercicis plantejats.
+
+5.FONTS DE DADES
+
+Les dades s'han obtingut del següent enllaç: https://github.com/fivethirtyeight/covid-19-polls
+    - covid_concern_polls.csv
+    - covid_approval_poll.csv
+    - pollster_ratings.xlsx
+
+6. LLICÈNCIA
+
+MIT License
+
+Copyright (c) 2021 Xavier Paricio
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND INFRINGEMENT. IN IO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

@@ -1,0 +1,32 @@
+1.2 Si tinguéssim un arxiu de 1Gb ho faries igual? Si no és així, implementeu la solució per aquest cas.
+
+Si. Hi ha moltes maneres de llegir un arxiu. En aquest cas s'ha fet ús del mètode .read(). El mètode read() llegeix
+l'arxiu d'un sol cop. S'ha de tenir en compte que per utilitzar aquest mètode és necessari tenir suficient espai a
+la memòria del ordinador per llegir l'arxiu en memòria. En el cas d'un arxiu d'1GB aquest mètode funciona bé i no
+es considera l'ús d'un altre mètode. Tot i això, n'hi ha molts més. Es podria haver haver fet ús d'una lectura
+línia a línia però és lent per arxius molt grans. Per optimitzar la lectura en arxius més grans es poden llegir
+múltiples línies al mateix temps, per exemple, fent ús del mètode islice() del mòdul itertools.
+
+1.3 Si tinguéssim 100 arxius d'1Gb com ho faries? No cal implementar la solució, només una petita descripció de com
+resoldries el problema.
+
+En aquest cas faria ús d'un loop que recorregués tots els arxius i els anés llegint un a un. Una altra opció seria fer
+ús del concepte de la concurrència. Per exemple, multiprocessing. L'ús de multiprocessing permet processar múltiples
+processos al mateix temps per múltiples CPUs.
+
+2. Justificació de lectura dels arxius
+
+S'ha considerat que la forma més eficient de llegir i manipular els arxius és amb la llibreria pandas. La llibreria
+pandas ens permet treballar amb dades etiquetades i sèries temporals. A més a més, té mètodes per plotejar,
+calcular i més implementats. Finalment, cal mencionar el fet que la funció read_csv() ens permet treballar amb arxius
+d'una forma molt efectiva. Aquests arxius poden ser després usats com Dataframes.
+
+5.2 Què en podeu dir de les dues gràfiques produïdes a l'exercici anterior (5.1)? Quines conclusions podeu treure?
+
+Els resultats mostren una categorització de les persones per nivell de preocupació després o abans del 2020-09-01. Els
+resultats mostren com el percentatge de persones moltes preocupades ha disminuït després d'aquesta data (4% approx). Pel
+que fa a la resta de categories, es pot veure com els percentatges son similars en totes i per tant no hi ha efectes
+rellevants abans i després del 2020-09-01. De totes maneres, les petites variacions es veuen reflexades en un petit
+augment de persones lleugerament preocupades (2.5%), no gaire preocupades (0.8%) i gens preocupades (0.40%). En aquest
+sentit, podriem dir que en una linia general, el nivell de preocupació després del 2020-09-01 va disminuir.
+
