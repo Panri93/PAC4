@@ -12,7 +12,9 @@ https://github.com/Panri93/PAC4.git
 
 3. EXECUCIÓ
 
-El codi s'ha desenvolupat en l'entorn IDE PyCharm. Per executar el codi, n'hi ha prou en executar main.py havent importat utils.py
+El codi s'ha desenvolupat en l'entorn IDE PyCharm. Per executar el codi, n'hi ha prou en executar main.py havent importat utils.py.
+Per veure les gràfiques de cada exercici és necessari anar tancant-les. Un exemple d'execució seria: Executar, es mostren resultats
+per pantalla, es mostra gràfic, tancar gràfic, es mostra gràfic, tancar gràfic, etc.
 
 4. CONTINGUT
 
