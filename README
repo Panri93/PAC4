@@ -4,14 +4,14 @@
 
 2. DESCRIPCIÓ
 
-Aquest projecte forma part de l'última pràctica corresponent a la materia de Programació per la ciència
+Aquest projecte forma part de l'última pràctica corresponent a la matèria de Programació per la ciència
 de dades del Master en Ciència de dades de la UOC. En concret, en aquesta pràctica es demana realitzar una anàlisi de
 dades amb informació sobre diferents entrevistes en els Estats Units durant l'últim any en relació amb el coronavirus
 i com l'ex-president Trump ha gestionat la situació.
 
 3. EXECUCIÓ
 
-Per executar el codi, n'hi ha prou en clicar RUN al arxiu main.py
+El codi s'ha desenvolupat en l'entorn IDE PyCharm. Per executar el codi, n'hi ha prou en executar main.py havent importat utils.py
 
 4. CONTINGUT
 
